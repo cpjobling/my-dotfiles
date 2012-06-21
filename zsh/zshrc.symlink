@@ -60,6 +60,6 @@ for config_file ($DOTFILES/**/completion.sh) source $config_file
 
 # Customize to your needs...
 source ~/perl5/perlbrew/etc/bashrc
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 
