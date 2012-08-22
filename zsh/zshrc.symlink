@@ -64,4 +64,4 @@ for config_file ($DOTFILES/**/completion.sh) source $config_file
 source ~/perl5/perlbrew/etc/bashrc
 # eval "$(rbenv init -)"
 
-
+export PATH=/usr/local/share/python:$PATH
