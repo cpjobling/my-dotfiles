@@ -33,7 +33,6 @@ plugins=(git rvm)
 
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 source $ZSH/oh-my-zsh.sh
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 
 # shortcut to this dotfiles path is $DOTFILES
@@ -65,3 +64,4 @@ source ~/perl5/perlbrew/etc/bashrc
 # eval "$(rbenv init -)"
 
 export PATH=/usr/local/share/python:$PATH
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
