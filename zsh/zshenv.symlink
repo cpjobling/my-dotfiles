@@ -1,3 +1,4 @@
 # eval "$(rbenv init -)"
 
+PATH=/usr/local/mysql/bin:$PATH # Add mysql to path
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
