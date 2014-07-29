@@ -64,14 +64,7 @@ source ~/perl5/perlbrew/etc/bashrc
 # eval "$(rbenv init -)"
 
 export PATH=/usr/local/share/python:$PATH
-
-# DART
 export PATH=/Applications/dart/dart-sdk/bin:$PATH
-
-# VirtualBox
 export PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS
-
 #export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
-
-# chruby
-source /usr/local/opt/chruby/share/chruby/auto.sh
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
