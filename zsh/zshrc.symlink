@@ -64,6 +64,7 @@ source ~/perl5/perlbrew/etc/bashrc
 # eval "$(rbenv init -)"
 
 export PATH=/usr/local/share/python:$PATH
-export PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS/
+export PATH=/Applications/dart/dart-sdk/bin:$PATH
+export PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS
 #export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
