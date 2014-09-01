@@ -88,10 +88,6 @@ export PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS
 
 #export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 
-# chruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
-#source ~/.rvm/scripts/extras/chruby.sh
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 
 # haskell for pandoc
@@ -99,3 +95,5 @@ export PATH="$HOME/Library/Haskell/bin:$PATH"
 
 # my local files
 export PATH=$HOME/bin:$PATH
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
