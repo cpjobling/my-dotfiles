@@ -63,3 +63,9 @@ vmap <D-]> >gv
 
 set hidden
 set wm=80
+
+if has('vim_starting')
+ set nocompatible
+ set runtimepath+=~/.janus/dart-vim-plugin
+endif
+filetype plugin indent on
