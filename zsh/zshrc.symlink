@@ -74,7 +74,7 @@ do
   source $file
 done
 
-unset config_files
+:nset config_files
 
 # Customize to your needs...
 source ~/perl5/perlbrew/etc/bashrc
@@ -97,3 +97,5 @@ export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH=$HOME/bin:$PATH
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# added by Anaconda3 installer¬
+export PATH="/Users/eechris/anaconda3/bin:$PATH"¬

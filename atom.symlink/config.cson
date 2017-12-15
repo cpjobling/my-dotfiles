@@ -1,10 +1,12 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    fontSize: 15
   core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
     excludeVcsIgnoredPaths: true
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -13,25 +15,32 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "no"
     themes: [
       "atom-light-ui"
       "solarized-light-syntax"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 17
+    showIndentGuide: true
+  "julia-client":
+    enableMenu: true
+    enableToolBar: true
+    launchOnStartup: true
+  linter: {}
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "tool-bar":
+    position: "Left"
+  "tree-view": {}
+  "uber-juno":
+    disable: true
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "tree-view": {}
-  linter: {}
